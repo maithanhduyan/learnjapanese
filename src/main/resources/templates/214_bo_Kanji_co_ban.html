@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>214 Bộ Kanji Cơ Bản</title>
+	<link rel="icon" href="/img/favicon.ico" type="image/png" sizes="16x16 32x32">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1 th:text="${name}" />
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-body">
+						<p id="kanjiText" class="text-center kanji-text">Kanji</p>
+					</div>
+					<div class="card-footer">
+						<div class="form-check">
+							<label class="form-check-label"> <input id="show-comment-check" type="checkbox"
+									class="form-check-input" checked>Hiển thị nghĩa
+							</label>
+						</div>
+						<label id="comment"></label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<br>
+				<button type="button" id="continue" class="btn btn-dark">Tiếp</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<p>Học Tiếng Nhật 2021</p>
+	</div>
+
+</body>
+<script src="/jquery/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/popper.js/umd/popper.min.js"></script>
+<script src="/js/main.js"></script>
+<script lang="javascript">
+	"use strict";
+	$(document).ready(function () {
+		// Variable
+		var index;
+		var commentTag = $("#comment");
+		var kanjiTag = $("#kanjiText");
+		var showCommentCheck = $("#show-comment-check");
+
+		// Initial Application
+		function initialApp() {
+			showComment();
+		}
+
+		// Continue Button
+		$("#continue").click(function () {
+			randomKanji();
+		});
+
+		// Text Click
+		$("#kanjiText").on("click", function () {
+			randomKanji()
+		});
+
+		// Checkbox Show Comment Button
+		$("#show-comment-check").on("click", function () {
+			showComment();
+		});
+
+		// Common Function
+		function randomKanji() {
+			var comment;
+			var showKanji;
+
+			// random index
+			index = Math.floor(Math.random() * 214);
+
+			comment = kanjiArray[index];
+			showKanji = comment.substring(4, 7);
+
+			kanjiTag.text(showKanji);
+			kanjiTag.attr("title", comment);
+			commentTag.text(comment);
+			console.log(showKanji);
+			console.log(comment);
+		}
+
+		function showComment() {
+			if ($("#show-comment-check").is(":checked")) {
+				console.log($("show-comment-check:checked").text());
+				$("#comment").show();
+			} else {
+				$("#show-comment-check").text("Hiển thị nghĩa");
+				$("#comment").hide();
+			}
+		}
+	});
+</script>
+
+</html>
