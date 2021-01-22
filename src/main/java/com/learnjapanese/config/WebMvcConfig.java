@@ -11,32 +11,35 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-	//
 	// Access Bootstrap static resource:
-	//
+	// http://somedomain/SomeContextPath/js/
 	registry.addResourceHandler("/js/**") //
 		.addResourceLocations("classpath:/static/js/");
 
-	//
+	// css
+	registry.addResourceHandler("/css/**") //
+		.addResourceLocations("classpath:/static/css/");
+
+	// lib
+	registry.addResourceHandler("/lib/**") //
+		.addResourceLocations("classpath:/static/lib/");
+
 	// http://somedomain/SomeContextPath/jquery/jquery.min.css
-	//
 	registry.addResourceHandler("/jquery/**") //
 		.addResourceLocations("classpath:/META-INF/resources/webjars/jquery/3.5.1/");
 
 	// http://somedomain/SomeContextPath/bootstrap/css/bootstrap.min.css
 	// http://somedomain/SomeContextPath/bootstrap/js/bootstrap.min.js
-	//
 	registry.addResourceHandler("/bootstrap/**") //
 		.addResourceLocations("classpath:/META-INF/resources/webjars/bootstrap/4.5.3/");
 
 	// http://somedomain/SomeContextPath/popper/popper.min.js
-	//
 	registry.addResourceHandler("/popper.js/**") //
 		.addResourceLocations("classpath:/META-INF/resources/webjars/popper.js/1.16.0/");
-	
-	// css
-	registry.addResourceHandler("/css/**") //
-		.addResourceLocations("classpath:/static/css/");
+
+	// http://somedomain/SomeContextPath/popper/popper.min.js
+	registry.addResourceHandler("/datatables/**") //
+		.addResourceLocations("classpath:/META-INF/resources/webjars/datatables/1.10.23/");
 
 	// img
 	registry.addResourceHandler("/img/**") //
