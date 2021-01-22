@@ -102,6 +102,13 @@
 			<artifactId>datatables</artifactId>
 			<version>1.10.23</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.webjars/jquery-easing -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery-easing</artifactId>
+			<version>1.4.1</version>
+		</dependency>
+
 
 		<!-- SQLite Database -->
 		<dependency>
