@@ -14,7 +14,7 @@ public class KanjiBasicController {
     @Autowired
     private KanjiBasicServiceImpl kanjiService;
 
-    @GetMapping("/214-bo-Kanji-co-ban")
+    @GetMapping("/214-bo-kanji-co-ban")
     public String kanji214(
 	    @RequestParam(name = "name", required = false, defaultValue = "214 Bộ Thủ Kanji Cơ Bản") String name,
 	    Model model) {
