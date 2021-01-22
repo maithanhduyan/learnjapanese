@@ -13,7 +13,7 @@ public class KanjiBasic {
     long id;
     String name;
     String content;
-    String stroke;
+    int stroke;
     String note;
 
     public KanjiBasic() {
@@ -27,7 +27,7 @@ public class KanjiBasic {
      * @param stroke
      * @param note
      */
-    public KanjiBasic(int id, String name, String content, String stroke, String note) {
+    public KanjiBasic(int id, String name, String content, int stroke, String note) {
 	super();
 	this.id = id;
 	this.name = name;
@@ -81,14 +81,14 @@ public class KanjiBasic {
     /**
      * @return the stroke
      */
-    public String getStroke() {
+    public int getStroke() {
 	return stroke;
     }
 
     /**
      * @param stroke the stroke to set
      */
-    public void setStroke(String stroke) {
+    public void setStroke(int stroke) {
 	this.stroke = stroke;
     }
 
