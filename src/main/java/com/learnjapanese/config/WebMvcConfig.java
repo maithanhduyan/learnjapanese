@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 @EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
-
+    
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
 	//
@@ -33,7 +33,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	//
 	registry.addResourceHandler("/popper.js/**") //
 		.addResourceLocations("classpath:/META-INF/resources/webjars/popper.js/1.16.0/");
-	
+
 	// css
 	registry.addResourceHandler("/css/**") //
 		.addResourceLocations("classpath:/static/css/");
