@@ -20,6 +20,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	registry.addResourceHandler("/css/**") //
 		.addResourceLocations("classpath:/static/css/");
 
+	// img
+	registry.addResourceHandler("/img/**") //
+		.addResourceLocations("classpath:/static/img/");
+
 	// lib
 	registry.addResourceHandler("/lib/**") //
 		.addResourceLocations("classpath:/static/lib/");
@@ -40,10 +44,10 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	// http://somedomain/SomeContextPath/popper/popper.min.js
 	registry.addResourceHandler("/datatables/**") //
 		.addResourceLocations("classpath:/META-INF/resources/webjars/datatables/1.10.23/");
-
-	// img
-	registry.addResourceHandler("/img/**") //
-		.addResourceLocations("classpath:/static/img/");
+	
+	// http://somedomain/SomeContextPath/popper/popper.min.js
+	registry.addResourceHandler("/font-awesome/**") //
+	.addResourceLocations("classpath:/META-INF/resources/webjars/font-awesome/5.15.2/");
 
 	// websocket
 	registry.addResourceHandler("/stomp-websocket/**") //

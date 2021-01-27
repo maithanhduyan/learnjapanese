@@ -3,9 +3,7 @@ package com.learnjapanese.service;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 import javax.transaction.Transactional;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
@@ -20,7 +18,7 @@ import com.learnjapanese.entity.KanjiBasic;
 public class KanjiBasicServiceImpl implements KanjiBasicService {
 
     private static final Logger LOG = LoggerFactory.getLogger(KanjiBasic.class.getName());
-    List<KanjiBasic> kanjilist = new ArrayList<KanjiBasic>();
+    static List<KanjiBasic> kanjilist = new ArrayList<KanjiBasic>();
 
     public KanjiBasicServiceImpl() {
 	kanjilist.add(new KanjiBasic(1, "一", "Nhất => Số một",1, ""));
@@ -237,7 +235,7 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 	kanjilist.add(new KanjiBasic(212, "龍", "Long (龙 ) => con rồng",16, ""));
 	kanjilist.add(new KanjiBasic(213, "龜", "Quy (亀, 龟 ) => con rùa",16, ""));
 	kanjilist.add(new KanjiBasic(214, "龠", "Dược => sáo 3 lỗ",17, ""));
-	LOG.info("KanjiBasic List was loaded.");
+	LOG.info("KanjiBasic list was loaded.");
     }
 
     @Override

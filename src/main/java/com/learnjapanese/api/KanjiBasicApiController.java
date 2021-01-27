@@ -1,5 +1,7 @@
 package com.learnjapanese.api;
 
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -25,32 +27,58 @@ import com.learnjapanese.service.KanjiBasicServiceImpl;
 @RequestMapping("/api/kanjibasic")
 public class KanjiBasicApiController {
 
-    private static final Logger LOG = LoggerFactory.getLogger(KanjiBasicApiController.class.getName());
+	private static final Logger LOG = LoggerFactory.getLogger(KanjiBasicApiController.class.getName());
 
-    @Autowired
-    private KanjiBasicServiceImpl kanjiBasicService;
+	@Autowired
+	private KanjiBasicServiceImpl kanjiBasicService;
 
-    @Autowired
-    private DatatableRequest datatableRequest;
+	@Autowired
+	private DatatableRequest datatableRequest;
 
-    @Autowired
-    private DatatableResponse datatableResponse;
+	@Autowired
+	private DatatableResponse datatableResponse;
 
-    @RequestMapping(value = "/getAll", method = { RequestMethod.POST })
-    @ResponseStatus(value = HttpStatus.OK)
-    @CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" })
-    public @ResponseBody Map<String, Object> getKanjiBasicList(@RequestParam Map<String, String> data) {
-	LOG.info("Request:" + data);
-	datatableRequest.setDataRequest(data);
-	Page<KanjiBasic> page = kanjiBasicService
-		.findAll(PageRequest.of(datatableRequest.getPage(), datatableRequest.getPageSize()));
-	long recordsTotal = page.getTotalElements();
-	datatableResponse.setDraw(datatableRequest.getDraw());
-	datatableResponse.setRecordsTotal(recordsTotal);
-	datatableResponse.setRecordsFiltered(recordsTotal);
-	datatableResponse.setContent(page.getContent());
-	LOG.info("Total :" + page.getTotalPages());
-	return datatableResponse.data();
-    }
+	// For Datatable
+	@RequestMapping(value = "/getAll", method = { RequestMethod.POST , RequestMethod.GET})
+	@ResponseStatus(value = HttpStatus.OK)
+	@CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" })
+	public @ResponseBody Map<String, Object> getKanjiBasicList(@RequestParam Map<String, String> data) {
+		LOG.info("Request:" + data);
+		datatableRequest.setDataRequest(data);
+		Page<KanjiBasic> page = kanjiBasicService
+				.findAll(PageRequest.of(datatableRequest.getPage(), datatableRequest.getPageSize()));
+		long recordsTotal = page.getTotalElements();
+		datatableResponse.setDraw(datatableRequest.getDraw());
+		datatableResponse.setRecordsTotal(recordsTotal);
+		datatableResponse.setRecordsFiltered(recordsTotal);
+		datatableResponse.setContent(page.getContent());
+		LOG.info("Total :" + page.getTotalPages());
+		return datatableResponse.data();
+	}
+
+	// For Mobile App
+	@RequestMapping(value = "/getList", method = { RequestMethod.POST })
+	@ResponseStatus(value = HttpStatus.OK)
+	@CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" }) // For testing
+	public @ResponseBody List<KanjiBasic> getKanjiBasicListMobile(@RequestParam Map<String, String> data) {
+		LOG.info("Request:" + data);
+		List<KanjiBasic> list = kanjiBasicService.findAll();
+		LOG.info("Total :" + list.size());
+		Map<String, Object> response = new HashMap<String, Object>();
+		response.put("list", list);
+		return list;
+	}
+	
+	@CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" })
+	@RequestMapping(value = "/getKanji", method = { RequestMethod.POST })
+	@ResponseStatus(value = HttpStatus.OK)
+	public @ResponseBody KanjiBasic getKanjiBasicMobile(@RequestParam int id) {
+		LOG.info("Request:" + id);
+		List<KanjiBasic> list = kanjiBasicService.findAll();
+		LOG.info("Total :" + list.size());
+		Map<String, Object> response = new HashMap<String, Object>();
+		response.put("list", list);
+		return list.get(id);
+	}
 
 }
