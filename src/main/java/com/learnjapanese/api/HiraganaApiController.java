@@ -1,6 +1,5 @@
 package com.learnjapanese.api;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -17,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.learnjapanese.entity.Hiragana;
+import com.learnjapanese.service.DataLoaderService;
 import com.learnjapanese.service.HiraganaServiceImpl;
 
 @RestController
@@ -27,21 +27,33 @@ public class HiraganaApiController {
 	@Autowired
 	private HiraganaServiceImpl hiraganaService;
 
+	@Autowired
+	private DataLoaderService dataLoaderService;
+
 	// For Testing
-	@SuppressWarnings("unchecked")
 	@CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" }) //
 	@RequestMapping(value = "findAll", method = { RequestMethod.GET, RequestMethod.POST })
 	@ResponseStatus(value = HttpStatus.OK)
 	public @ResponseBody List<Hiragana> findAll(@RequestParam Map<String, String> data) {
 		List<Hiragana> hiraganaList = null;
-		if (data.containsKey("Req")) {
-			String req = data.get("Req");
-			if (req.equalsIgnoreCase("HiraganaList")) {
-				hiraganaList = hiraganaService.findAll();
+		try {
+			if (data.containsKey("Req")) {
+				String req = data.get("Req");
+				if (req.equalsIgnoreCase("HiraganaList")) {
+					if (true) {
+						hiraganaList = dataLoaderService.getHiraganaList();
+					} else {
+						hiraganaList = hiraganaService.findAll();
+					}
+				}
+			} else {
+				LOG.info("Request fail. data");
 			}
-		} else {
-			LOG.info("Request fail. data" + data.toString());
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			LOG.error(ex.getMessage());
 		}
 		return hiraganaList;
 	}
+	
 }

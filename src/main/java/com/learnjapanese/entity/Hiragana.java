@@ -59,6 +59,12 @@ public class Hiragana {
 	public void setImgURL(String imgURL) {
 		this.imgURL = imgURL;
 	}
+
+	@Override
+	public String toString() {
+		return "Hiragana [id=" + id + ", name=" + name + ", romaji=" + romaji + ", note=" + note + ", imgURL=" + imgURL
+				+ "]";
+	}
 	
 	
 	
