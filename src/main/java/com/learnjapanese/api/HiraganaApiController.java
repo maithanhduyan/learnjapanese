@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.learnjapanese.entity.Hiragana;
-import com.learnjapanese.service.DataLoaderService;
 import com.learnjapanese.service.HiraganaServiceImpl;
 
 @RestController
@@ -27,11 +26,9 @@ public class HiraganaApiController {
 	@Autowired
 	private HiraganaServiceImpl hiraganaService;
 
-	@Autowired
-	private DataLoaderService dataLoaderService;
 
 	// For Testing
-	@CrossOrigin(origins = { "http://localhost:8080", "http://192.168.100.151:8080" }) //
+	@CrossOrigin(origins = { "http://localhost:8080"}) //
 	@RequestMapping(value = "findAll", method = { RequestMethod.GET, RequestMethod.POST })
 	@ResponseStatus(value = HttpStatus.OK)
 	public @ResponseBody List<Hiragana> findAll(@RequestParam Map<String, String> data) {
@@ -40,11 +37,7 @@ public class HiraganaApiController {
 			if (data.containsKey("Req")) {
 				String req = data.get("Req");
 				if (req.equalsIgnoreCase("HiraganaList")) {
-					if (true) {
-						hiraganaList = dataLoaderService.getHiraganaList();
-					} else {
-						hiraganaList = hiraganaService.findAll();
-					}
+					hiraganaList = hiraganaService.findAll();
 				}
 			} else {
 				LOG.info("Request fail. data");

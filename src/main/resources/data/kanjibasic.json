@@ -1,0 +1,1500 @@
+[
+    {
+        "id": 1,
+        "name": "一",
+        "content": "Nhất => Số một",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 2,
+        "name": "〡",
+        "content": "Cổn => sổ",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 3,
+        "name": "丶",
+        "content": "Chủ => Điểm, chấm",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 4,
+        "name": "丿",
+        "content": "Phiệt => sổ xiên qua trái",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 5,
+        "name": "乙",
+        "content": "Ất => Vị trí thứ 2 trong thiên can",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 6,
+        "name": "亅",
+        "content": "Quyết => sổ có móc",
+        "stroke": 1,
+        "note": ""
+    },
+    {
+        "id": 7,
+        "name": "二",
+        "content": "Nhị => số hai",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 8,
+        "name": "亠",
+        "content": "Đầu => (không có nghĩa)",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 9,
+        "name": "人",
+        "content": "Nhân (亻) => người",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 10,
+        "name": "儿",
+        "content": "Nhi => trẻ con",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 11,
+        "name": "入",
+        "content": "Nhập => vào",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 12,
+        "name": "八",
+        "content": "Bát => số tám",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 13,
+        "name": "冂",
+        "content": "Quynh => vùng biên giới xa; hoang địa",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 14,
+        "name": "冖",
+        "content": "Mịch => trùm khăn lên",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 15,
+        "name": "冫",
+        "content": "Băng => nước đá",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 16,
+        "name": "几",
+        "content": "Kỷ => ghế dựa",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 17,
+        "name": "凵",
+        "content": "Khảm => há miệng",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 18,
+        "name": "刀",
+        "content": "Đao (刂) => con dao, cây đao (vũ khí)",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 19,
+        "name": "力",
+        "content": "Lực => sức mạnh",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 20,
+        "name": "勹",
+        "content": "Bao => bao bọc",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 21,
+        "name": "匕",
+        "content": "Chuỷ => cái thìa (cái muỗng)",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 22,
+        "name": "匚",
+        "content": "Phương => tủ đựng",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 23,
+        "name": "匸",
+        "content": "Hệ => che đậy, giấu giếm",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 24,
+        "name": "十",
+        "content": "Thập => số mười",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 25,
+        "name": "卜",
+        "content": "Bốc => xem bói",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 26,
+        "name": "卩",
+        "content": "Tiết => đốt tre",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 27,
+        "name": "厂",
+        "content": "Hán, Xưởng => sườn núi, vách đá",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 28,
+        "name": "厶",
+        "content": "Khư, tư => riêng tư",
+        "stroke": 2,
+        "note": ""
+    },
+    {
+        "id": 29,
+        "name": "又",
+        "content": "Hựu => lại nữa, một lần nữa",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 30,
+        "name": "口",
+        "content": "Khẩu => cái miệng",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 31,
+        "name": "囗",
+        "content": "Vi => vây quanh",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 32,
+        "name": "土",
+        "content": "Thổ => đất",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 33,
+        "name": "士",
+        "content": "Sĩ => kẻ sĩ",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 34,
+        "name": "夂",
+        "content": "Trĩ => đến ở phía sau",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 35,
+        "name": "夊",
+        "content": "Truy => đi chậm",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 36,
+        "name": "夕",
+        "content": "Tịch => đêm tối",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 37,
+        "name": "大",
+        "content": "Đại => to lớn",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 38,
+        "name": "女",
+        "content": "Nữ => nữ giới, con gái, đàn bà",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 39,
+        "name": "子",
+        "content": "Tử => con",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 40,
+        "name": "宀",
+        "content": "Miên => mái nhà mái che",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 41,
+        "name": "寸",
+        "content": "Thốn => đơn vị «tấc» (đo chiều dài)",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 42,
+        "name": "小",
+        "content": "Tiểu => nhỏ bé",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 43,
+        "name": "尢",
+        "content": "Uông => yếu đuối",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 44,
+        "name": "尸",
+        "content": "Thi => xác chết, thây ma",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 45,
+        "name": "屮",
+        "content": "Triệt => mầm non, cỏ non mới mọc",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 46,
+        "name": "山",
+        "content": "Sơn => núi non",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 47,
+        "name": "巛",
+        "content": "Xuyên => sông ngòi",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 48,
+        "name": "工",
+        "content": "Công => người thợ, công việc",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 49,
+        "name": "己",
+        "content": "Kỷ => bản thân mình",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 50,
+        "name": "巾",
+        "content": "Cân => cái khăn",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 51,
+        "name": "干",
+        "content": "Can => thiên can, can dự",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 51,
+        "name": "幺",
+        "content": "Yêu => nhỏ nhắn",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 53,
+        "name": "广",
+        "content": "Nghiễm => mái nhà",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 54,
+        "name": "廴",
+        "content": "Dẫn => bước dài",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 55,
+        "name": "廾",
+        "content": "Củng => chắp tay",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 56,
+        "name": "弋",
+        "content": "Dặc => bắn, chiếm lấy",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 57,
+        "name": "弓",
+        "content": "Cung => cái cung (để bắn tên)",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 58,
+        "name": "彐",
+        "content": "Kệ => đầu con nhím",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 59,
+        "name": "彡",
+        "content": "Sam => lông tóc dài",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 60,
+        "name": "彳",
+        "content": "Xích => bước chân trái",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 61,
+        "name": "心",
+        "content": "Tâm (忄)=> quả tim, tâm trí, tấm lòng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 62,
+        "name": "戈",
+        "content": "Qua => cây qua (một thứ binh khí dài)",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 63,
+        "name": "戶",
+        "content": "Hộ => cửa một cánh",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 64,
+        "name": "手",
+        "content": "Thủ (扌)=> tay, thủ môn",
+        "stroke": 3,
+        "note": ""
+    },
+    {
+        "id": 65,
+        "name": "支",
+        "content": "Chi => cành nhánh",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 66,
+        "name": "攴",
+        "content": "Phộc (攵)=> đánh khẽ",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 67,
+        "name": "文",
+        "content": "Văn => văn vẻ, văn chương, vẻ sáng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 68,
+        "name": "斗",
+        "content": "Đẩu => cái đấu để đong",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 69,
+        "name": "斤",
+        "content": "Cân => cái búa, rìu",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 70,
+        "name": "方",
+        "content": "Phương => vuông, hình lập phương",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 71,
+        "name": "无",
+        "content": "Vô => không",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 72,
+        "name": "日",
+        "content": "Nhật => ngày, mặt trời",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 73,
+        "name": "曰",
+        "content": "Viết => nói rằng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 74,
+        "name": "月",
+        "content": "Nguyệt => tháng, mặt trăng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 75,
+        "name": "木",
+        "content": "Mộc => gỗ, cây cối",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 76,
+        "name": "欠",
+        "content": "Khiếm => khiếm khuyết, thiếu vắng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 77,
+        "name": "止",
+        "content": "Chỉ => dừng lại",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 78,
+        "name": "歹",
+        "content": "Đãi => xấu xa, tệ hạ",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 79,
+        "name": "殳",
+        "content": "Thù => binh khí dài",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 80,
+        "name": "毋",
+        "content": "Vô => chớ, đừng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 81,
+        "name": "比",
+        "content": "Tỷ => so sánh",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 82,
+        "name": "毛",
+        "content": "Mao => lông",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 83,
+        "name": "氏",
+        "content": "Thị => họ",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 84,
+        "name": "气",
+        "content": "Khí => hơi nước",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 85,
+        "name": "水",
+        "content": "Thuỷ (氵)=> nước",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 86,
+        "name": "火",
+        "content": "Hỏa (灬)=> lửa",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 87,
+        "name": "爪",
+        "content": "Trảo => móng vuốt cầm thú",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 88,
+        "name": "父",
+        "content": "Phụ => cha",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 89,
+        "name": "爻",
+        "content": "Hào => hào âm, hào dương (Kinh Dịch)",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 90,
+        "name": "爿",
+        "content": "Tường (丬)=> mảnh gỗ, cái giường",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 91,
+        "name": "片",
+        "content": "Phiến => mảnh, tấm, miếng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 92,
+        "name": "牙",
+        "content": "Nha => răng",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 93,
+        "name": "牛",
+        "content": "Ngưu ( 牜)=> trâu",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 94,
+        "name": "犬",
+        "content": "Khuyển (犭)=> con chó",
+        "stroke": 4,
+        "note": ""
+    },
+    {
+        "id": 95,
+        "name": "玄",
+        "content": "Huyền => màu đen huyền, huyền bí",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 96,
+        "name": "玉",
+        "content": "Ngọc => đá quý, ngọc",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 97,
+        "name": "瓜",
+        "content": "Qua => quả dưa",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 98,
+        "name": "瓦",
+        "content": "Ngõa => ngói",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 99,
+        "name": "甘",
+        "content": "Cam => ngọt",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 100,
+        "name": "生",
+        "content": "Sinh => sinh đẻ, sinh sống",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 101,
+        "name": "用",
+        "content": "Dụng => dùng",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 102,
+        "name": "田",
+        "content": "Điền => ruộng",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 103,
+        "name": "疋",
+        "content": "Thất ( 匹) => đơn vị đo chiều dài, tấm (vải)",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 104,
+        "name": "疒",
+        "content": "Nạch => bệnh tật",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 105,
+        "name": "癶",
+        "content": "Bát => gạt ngược lại, trở lại",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 106,
+        "name": "白",
+        "content": "Bạch => màu trắng",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 107,
+        "name": "皮",
+        "content": "Bì => da",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 108,
+        "name": "皿",
+        "content": "Mãnh => bát dĩa",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 109,
+        "name": "目",
+        "content": "Mục => mắt",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 110,
+        "name": "矛",
+        "content": "Mâu => cây giáo để đâm",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 111,
+        "name": "矢",
+        "content": "Thỉ => cây tên, mũi tên",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 112,
+        "name": "石",
+        "content": "Thạch => đá",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 113,
+        "name": "示",
+        "content": "Thị; kỳ (礻) => chỉ thị; thần đất",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 114,
+        "name": "禸",
+        "content": "Nhựu => vết chân, lốt chân",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 115,
+        "name": "禾",
+        "content": "Hòa => lúa",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 116,
+        "name": "穴",
+        "content": "Huyệt => hang lỗ",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 117,
+        "name": "立",
+        "content": "Lập => đứng, thành lập",
+        "stroke": 5,
+        "note": ""
+    },
+    {
+        "id": 118,
+        "name": "竹",
+        "content": "Trúc => tre trúc",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 119,
+        "name": "米",
+        "content": "Mễ  => gạo",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 120,
+        "name": "糸",
+        "content": "Mịch (糹, 纟) => sợi tơ nhỏ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 121,
+        "name": "缶",
+        "content": "Phẫu => đồ sành",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 122,
+        "name": "网",
+        "content": "Võng (罒, 罓) => cái lưới",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 123,
+        "name": "羊",
+        "content": "Dương => con dê",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 124,
+        "name": "羽",
+        "content": "Vũ (羽) => lông vũ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 125,
+        "name": "老",
+        "content": "Lão => già",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 126,
+        "name": "而",
+        "content": "Nhi => mà, và",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 127,
+        "name": "耒",
+        "content": "Lỗi => cái cày",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 128,
+        "name": "耳",
+        "content": "Nhĩ => tai (lỗ tai)",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 129,
+        "name": "聿",
+        "content": "Duật => cây bút",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 130,
+        "name": "肉",
+        "content": "Nhục => thịt",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 131,
+        "name": "臣",
+        "content": "Thần => bầy tôi, hạ thần",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 132,
+        "name": "自",
+        "content": "Tự => tự bản thân, kể từ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 133,
+        "name": "至",
+        "content": "Chí => đến",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 134,
+        "name": "臼",
+        "content": "Cữu => cái cối giã gạo",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 135,
+        "name": "舌",
+        "content": "Thiệt => cái lưỡi",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 136,
+        "name": "舛",
+        "content": "Suyễn => sai suyễn, sai lầm",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 137,
+        "name": "舟",
+        "content": "Chu => cái thuyền",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 138,
+        "name": "艮",
+        "content": "Cấn => quẻ Cấn (Kinh Dịch); dừng, bền cứng",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 139,
+        "name": "色",
+        "content": "Sắc => màu, dáng vẻ, nữ sắc",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 140,
+        "name": "艸",
+        "content": "Thảo (艹) => cỏ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 141,
+        "name": "虍",
+        "content": "Hô => vằn vện của con hổ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 142,
+        "name": "虫",
+        "content": "Trùng => sâu bọ",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 143,
+        "name": "血",
+        "content": "Huyết => máu",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 144,
+        "name": "行",
+        "content": "Hành => đi, thi hành, làm được",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 145,
+        "name": "衣",
+        "content": "Y (衤) => áo",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 146,
+        "name": "襾",
+        "content": "Á => che đậy, úp lên",
+        "stroke": 6,
+        "note": ""
+    },
+    {
+        "id": 147,
+        "name": "見",
+        "content": "Kiến (见) => trông thấy",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 148,
+        "name": "角",
+        "content": "Giác => góc, sừng thú",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 149,
+        "name": "言",
+        "content": "Ngôn => nói",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 150,
+        "name": "谷",
+        "content": "Cốc => khe nước chảy giữa hai núi, thung lũng",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 151,
+        "name": "豆",
+        "content": "Đậu => hạt đậu, cây đậu",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 152,
+        "name": "豕",
+        "content": "Thỉ => con heo, con lợn",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 153,
+        "name": "豸",
+        "content": "Trãi => loài sâu không chân",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 154,
+        "name": "貝",
+        "content": "Bối (贝) => vật báu",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 155,
+        "name": "赤",
+        "content": "Xích => màu đỏ",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 156,
+        "name": "走",
+        "content": "Tẩu ,(赱) => đi, chạy",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 157,
+        "name": "足",
+        "content": "Túc => chân, đầy đủ",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 158,
+        "name": "身",
+        "content": "Thân => thân thể, thân mình",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 159,
+        "name": "車",
+        "content": "Xa (车) => chiếc xe",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 160,
+        "name": "辛",
+        "content": "Tân => cay",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 161,
+        "name": "辰",
+        "content": "Thần => nhật, nguyệt, tinh; thìn (12 chi)",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 162,
+        "name": "辵",
+        "content": "Sước (辶 ) => chợt bước đi chợt dừng lại",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 163,
+        "name": "邑",
+        "content": "Ấp (阝) => vùng đất, đất phong cho quan",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 164,
+        "name": "酉",
+        "content": "Đậu => một trong 12 địa chi",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 165,
+        "name": "釆",
+        "content": "Biện => phân biệt",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 166,
+        "name": "里",
+        "content": "Lý => dặm; làng xóm",
+        "stroke": 7,
+        "note": ""
+    },
+    {
+        "id": 167,
+        "name": "金",
+        "content": "Kim => kim loại; vàng",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 168,
+        "name": "長",
+        "content": "Trường (镸 , 长) => dài; lớn (trưởng)",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 169,
+        "name": "門",
+        "content": "Môn (门) => cửa hai cánh",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 170,
+        "name": "阜",
+        "content": "Phụ (阝) => đống đất, gò đất",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 171,
+        "name": "隶",
+        "content": "Đãi => kịp, kịp đến",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 172,
+        "name": "隹",
+        "content": "Truy, chuy => chim đuôi ngắn",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 173,
+        "name": "雨",
+        "content": "Vũ => mưa",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 174,
+        "name": "青",
+        "content": "Thanh (靑) => màu xanh",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 175,
+        "name": "非",
+        "content": "Phi => không",
+        "stroke": 8,
+        "note": ""
+    },
+    {
+        "id": 176,
+        "name": "面",
+        "content": "Diện (靣) => mặt, bề mặt",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 177,
+        "name": "革",
+        "content": "Cách => da thú; thay đổi, cải cách",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 178,
+        "name": "韋",
+        "content": "Vi (韦) => da đã thuộc rồi",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 179,
+        "name": "韭",
+        "content": "Phỉ, cửu => rau phỉ (hẹ)",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 180,
+        "name": "音",
+        "content": "Âm => âm thanh, tiếng",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 181,
+        "name": "頁",
+        "content": "Hiệt (页) => đầu; trang giấy",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 182,
+        "name": "風",
+        "content": "Phong (凬, 风) => gió",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 183,
+        "name": "飛",
+        "content": "Phi (飞) => bay",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 184,
+        "name": "食",
+        "content": "Thực (飠, 饣) => ăn",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 185,
+        "name": "首",
+        "content": "Thủ => đầu",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 186,
+        "name": "香",
+        "content": "Hương => mùi hương, hương thơm",
+        "stroke": 9,
+        "note": ""
+    },
+    {
+        "id": 187,
+        "name": "馬",
+        "content": "Mã (马) => con ngựa",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 188,
+        "name": "骫",
+        "content": "Cốt => xương",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 189,
+        "name": "高",
+        "content": "Cao => cao",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 190,
+        "name": "髟",
+        "content": "Bưu, tiêu => tóc dài; sam => cỏ phủ mái nhà",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 191,
+        "name": "鬥",
+        "content": "Đấu => chống nhau, chiến đấu",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 192,
+        "name": "鬯",
+        "content": "Sưởng => rượu nếp; bao đựng cây cung",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 193,
+        "name": "鬲",
+        "content": "Cách => tên một con sông xưa; => cái đỉnh",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 194,
+        "name": "鬼",
+        "content": "Quỷ => con quỷ",
+        "stroke": 10,
+        "note": ""
+    },
+    {
+        "id": 195,
+        "name": "魚",
+        "content": "Ngư (鱼) => con cá",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 196,
+        "name": "鳥",
+        "content": "Điểu (鸟) => con chim",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 197,
+        "name": "鹵",
+        "content": "Lỗ => đất mặn",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 198,
+        "name": "鹿",
+        "content": "Lộc => con hươu",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 199,
+        "name": "麥",
+        "content": "Mạch (麦) => lúa mạch",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 200,
+        "name": "麻",
+        "content": "Ma => cây gai",
+        "stroke": 11,
+        "note": ""
+    },
+    {
+        "id": 201,
+        "name": "黃",
+        "content": "Hoàng => màu vàng",
+        "stroke": 12,
+        "note": ""
+    },
+    {
+        "id": 202,
+        "name": "黍",
+        "content": "Thử => lúa nếp",
+        "stroke": 12,
+        "note": ""
+    },
+    {
+        "id": 203,
+        "name": "黒",
+        "content": "Hắc => màu đen",
+        "stroke": 12,
+        "note": ""
+    },
+    {
+        "id": 204,
+        "name": "黹",
+        "content": "Chỉ => may áo, khâu vá",
+        "stroke": 12,
+        "note": ""
+    },
+    {
+        "id": 205,
+        "name": "黽",
+        "content": "Mãnh => con ếch; cố gắng (mãnh miễn)",
+        "stroke": 13,
+        "note": ""
+    },
+    {
+        "id": 206,
+        "name": "鼎",
+        "content": "Đỉnh => cái đỉnh",
+        "stroke": 13,
+        "note": ""
+    },
+    {
+        "id": 207,
+        "name": "鼓",
+        "content": "Cổ => cái trống",
+        "stroke": 13,
+        "note": ""
+    },
+    {
+        "id": 208,
+        "name": "鼠",
+        "content": "Thử => con chuột",
+        "stroke": 13,
+        "note": ""
+    },
+    {
+        "id": 209,
+        "name": "鼻",
+        "content": "Tỵ => cái mũi",
+        "stroke": 14,
+        "note": ""
+    },
+    {
+        "id": 210,
+        "name": "齊",
+        "content": "Tề (斉, 齐 ) => ngang bằng, cùng nhau",
+        "stroke": 14,
+        "note": ""
+    },
+    {
+        "id": 211,
+        "name": "齒",
+        "content": "Xỉ (齿, 歯) => răng",
+        "stroke": 15,
+        "note": ""
+    },
+    {
+        "id": 212,
+        "name": "龍",
+        "content": "Long (龙 ) => con rồng",
+        "stroke": 16,
+        "note": ""
+    },
+    {
+        "id": 213,
+        "name": "龜",
+        "content": "Quy (亀, 龟 ) => con rùa",
+        "stroke": 16,
+        "note": ""
+    },
+    {
+        "id": 214,
+        "name": "龠",
+        "content": "Dược => sáo 3 lỗ",
+        "stroke": 17,
+        "note": ""
+    }
+]
