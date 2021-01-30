@@ -1,3 +1,10 @@
+body{
+	margin-top:56px;
+}
+
+.footer{
+	margin-top:800px;
+}
 
 .kanji-text {
   font-family: "Times New Roman", Times, serif;
@@ -56,3 +63,4 @@
   background: #1E1E1E;
   transition: background 0.2s ease-in-out;
 }
+

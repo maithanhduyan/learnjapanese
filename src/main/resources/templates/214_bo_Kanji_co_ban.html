@@ -1,29 +1,34 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{layouts/main-layout :: main-fragment(  
+                                                ~{::title},
+                                                ~{:: #style-resources},
+                                                ~{:: #script-resources},
+                                                ~{:: #header},
+                                                ~{:: #nav},
+                                                ~{:: #main-content},  
+                                                ~{:: #footer}
+                                               )}">
 
 <head>
-	<title>214 Bộ Thủ Kanji Cơ Bản</title>
-	<link rel="icon" href="/img/favicon.ico" type="image/png" sizes="16x16 32x32">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+<meta charset="UTF-8" />
+<title th:text="${name}"></title>
+	<th:block id="style-resources">
 	<!-- Datatable -->
 	<link rel="stylesheet" href="/datatables/css/dataTables.bootstrap4.min.css">
-	<!-- iconfont CSS -->
-	<link rel="stylesheet" href="/lib/icofont/icofont.min.css">
-	<!-- AOS -->
-	<link rel="stylesheet" href="/lib/aos/aos.css">
-	<!-- style -->
-	<link rel="stylesheet" href="/css/style.css" />
+	</th:block>
 </head>
 
 <body>
-	<div class="jumbotron text-center" style="margin-bottom: 0">
+	<div id="header" class="jumbotron text-center" data-aos="fade-up">
 		<h1 th:text="${name}" />
 		<p>Cần nhớ trong Tiếng Nhật!</p>
 	</div>
-	<div class="container" data-aos="fade-up">
+
+	<div id="nav"
+		th:replace="~{/fragments/navbar :: nav-default}">Navbar
+	</div>
+	<div id="main-content" class="container" data-aos="fade-up">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="card">
@@ -84,100 +89,86 @@
 		</div>
 	</div>
 
-	<div class="jumbotron text-center" style="margin-bottom: 0">
-		<p>Tiếng Nhật Vui 2021</p>
-	</div>
-
-	<!-- Back To Top -->
-	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+	<div id="footer" th:replace="~{/fragments/footer :: copyright}">Footer</div>
 
 </body>
-<!-- Script -->
-<script src="/jquery/jquery.min.js"></script>
-<script src="/bootstrap/js/bootstrap.min.js"></script>
-<script src="/popper.js/umd/popper.min.js"></script>
-<!-- Datatable -->
-<script src="/datatables/js/jquery.dataTables.min.js"></script>
-<script src="/datatables/js/dataTables.bootstrap4.min.js"></script>
-<!-- Jquery easing -->
-<script src="lib/jquery.easing/jquery.easing.min.js"></script>
-<!-- AOS -->
-<script src="/lib/aos/aos.js"></script>
-
-<script src="/js/main.js"></script>
-<script lang="javascript">
-	"use strict";
-	$(document).ready(function () {
-		// Variable
-		let index;
-		let commentTag = $("#comment");
-		let kanjiTag = $("#kanjiText");
-		let showCommentCheck = $("#show-comment-check");
-		let comment;
-		let showKanji;
-		let kanjiTable = $("#kanjiTable");
-
-		// Text Click
-		$("#kanjiText").on("click", function () {
-			randomKanji()
-		});
-
-		// Checkbox Show Comment Button
-		$("#show-comment-check").on("click", function () {
-			showComment();
-		});
-
-		// Common Function
-		function randomKanji() {
-			// random index from 1-214 words
-			index = Math.floor(Math.random() * 214);
-
-			comment = kanjiArray[index];
-			showKanji = comment.substring(4, 7);
-
-			kanjiTag.text(showKanji);
-			commentTag.text(comment);
-			console.log(showKanji);
-			console.log(comment);
-			showComment();
-		}
-
-		function showComment() {
-			if ($("#show-comment-check").is(":checked")) {
-				kanjiTag.attr("title", comment);
-				$("#comment").show();
-			} else {
-				kanjiTag.attr("title", "");
-				$("#comment").hide();
+<th:block id="script-resources">
+	<!-- Datatable -->
+	<script src="/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="/datatables/js/dataTables.bootstrap4.min.js"></script>
+	<script type="text/javascript" th:src="@{/js/main.js}" ></script>
+	<script lang="javascript">
+		"use strict";
+		$(document).ready(function () {
+			// Variable
+			let index;
+			let commentTag = $("#comment");
+			let kanjiTag = $("#kanjiText");
+			let showCommentCheck = $("#show-comment-check");
+			let comment;
+			let showKanji;
+			let kanjiTable = $("#kanjiTable");
+	
+			// Text Click
+			$("#kanjiText").on("click", function () {
+				randomKanji()
+			});
+	
+			// Checkbox Show Comment Button
+			$("#show-comment-check").on("click", function () {
+				showComment();
+			});
+	
+			// Common Function
+			function randomKanji() {
+				// random index from 1-214 words
+				index = Math.floor(Math.random() * 214);
+	
+				comment = kanjiArray[index];
+				showKanji = comment.substring(4, 7);
+	
+				kanjiTag.text(showKanji);
+				commentTag.text(comment);
+				console.log(showKanji);
+				console.log(comment);
+				showComment();
 			}
-		}
-
-		// Datatable
-		$('#kanjiTable').DataTable();
-
-		$("#loadKanji-button").on("click", function () {
+	
+			function showComment() {
+				if ($("#show-comment-check").is(":checked")) {
+					kanjiTag.attr("title", comment);
+					$("#comment").show();
+				} else {
+					kanjiTag.attr("title", "");
+					$("#comment").hide();
+				}
+			}
+	
+			// Datatable
+			$('#kanjiTable').DataTable();
+	
+			$("#loadKanji-button").on("click", function () {
+				showOrHideTable();
+			});
+	
+			var isAllKanjiShow = false;
+			function showOrHideTable() {
+				if (isAllKanjiShow) {
+					$('#all-kanji-section').hide();
+					$("#loadKanji-button").text("Hiển thị 214 bộ thủ");
+					console.log("--" + isAllKanjiShow);
+					isAllKanjiShow = false;
+				} else {
+					$('#all-kanji-section').show();
+					$("#loadKanji-button").text("Ẩn");
+					console.log("--" + isAllKanjiShow);
+					isAllKanjiShow = true;
+				}
+			}
+	
 			showOrHideTable();
+	
 		});
-
-		var isAllKanjiShow = false;
-		function showOrHideTable() {
-			if (isAllKanjiShow) {
-				$('#all-kanji-section').hide();
-				$("#loadKanji-button").text("Hiển thị 214 bộ thủ");
-				console.log("--" + isAllKanjiShow);
-				isAllKanjiShow = false;
-			} else {
-				$('#all-kanji-section').show();
-				$("#loadKanji-button").text("Ẩn");
-				console.log("--" + isAllKanjiShow);
-				isAllKanjiShow = true;
-			}
-		}
-
-		showOrHideTable();
-
-	});
-</script>
-<!-- ./ Script -->
-
-</html>
+	</script>
+</th:block>
+</html>	
