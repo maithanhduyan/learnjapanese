@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>App Fragments</title>
+</head>
+<body>
+	<!-- Default Navigator -->
+	<nav th:fragment="nav-default"
+		class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="/home">Tiếng Nhật Vui</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="/hiragana">Bảng Chữ
+						Cái</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N5</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N4</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N3</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N2</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N1</a></li>
+			</ul>
+		</div>
+	</nav>
+</body>
+</html>

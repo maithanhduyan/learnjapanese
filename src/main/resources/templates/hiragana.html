@@ -12,7 +12,7 @@
 
 <head>
 <meta charset="UTF-8" />
-<title>Home Page</title>
+<title>Hiragana</title>
 	<th:block id="style-resources">
 		<link rel="stylesheet" type="text/css" href="" />
 	</th:block>
@@ -24,8 +24,25 @@
 		th:replace="~{/fragments/navbar :: nav-default}">Navbar
 	</div>
 
-	<div class="container" id="main-content">
-		<p><a href="/214-bo-kanji-co-ban">214  Bộ Thủ Kanji Cơ Bản</a></p>
+	<div id="main-content" class="container" data-aos="fade-up">
+		<div class="row">
+			<div class="col">
+				<table>
+					<thead>
+						<th></th>
+						<th></th>
+						<th></th>
+					</thead>	
+					<tbody>
+						<tr th:each="hiragana: ${hiraganaList}">
+							<td th:text="${hiragana.name}"></td>
+							<td th:text="${hiragana.romaji}"></td>
+							<td th:text="${hiragana.note}"></td>
+						</tr>					
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 
 	<div id="footer" th:replace="~{/fragments/footer :: copyright}">Footer</div>
@@ -34,4 +51,4 @@
 <th:block id="script-resources">
 	<script type="text/javascript" th:src="@{/js/main.js}" ></script>
 </th:block>
-</html>
+</html>	

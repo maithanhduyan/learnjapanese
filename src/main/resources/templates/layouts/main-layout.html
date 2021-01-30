@@ -1,40 +1,42 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org"
-    th:fragment="main-fragment (title, otherStaticResources, header, nav, mainContent, footer)">
+    th:fragment="main-fragment (title, style_resources, script_resources, header, nav, mainContent, footer)">
 <head>
-<meta charset="UTF-8" />
-<title th:replace="${title}">Page 1 Title</title>
- 
- 
-<link rel="stylesheet" type="text/css" th:href="@{/css/main.css}" href="../../static/css/main.css"/>
+	<link rel="icon" href="/img/favicon.ico" type="image/png" sizes="16x16 32x32">
+	<title th:replace="${title}">Page 1 Title</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+  	<!-- AOS -->
+	<link rel="stylesheet" href="/lib/aos/aos.css">
+	<!-- iconfont CSS -->
+	<link rel="stylesheet" href="/lib/icofont/icofont.min.css">
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" href="../../static/css/style.css"/>
  
 <!-- Other javascript, css source files -->
-<th:block th:replace="${otherStaticResources} ?: ~{}"></th:block>
+<th:block th:replace="${style_resources} ?: ~{}"></th:block>
  
 </head>
 <body>
+	<div th:insert="${header} ?: ~{}"></div>
  
-    <header th:insert="${header} ?: ~{}">
-        <h2>Page 1</h2>
-    </header>
+	<nav th:insert="${nav} ?: ~{}"><p>NavBar</p></nav>
+
+   	<div th:insert="${mainContent} ?: ~{}"><p>Content</p></div>
  
-    <section>
-        <nav th:insert="${nav} ?: ~{}">
-            <ul>
-                <li><a href="#">Page 1</a></li>
-                <li><a href="#">Page 2</a></li>
-            </ul>
-        </nav>
+    <footer th:insert="${footer} ?: ~{}"><p>Footer</p></footer>
  
-        <article th:insert="${mainContent} ?: ~{}">
-            <h1>Page 1</h1>
-            <p>Main content of Page 1</p>
-        </article>
-    </section>
- 
-    <footer th:insert="${footer} ?: ~{}">
-        <p>Footer</p>
-    </footer>
- 
+ 	<!-- Back To Top -->
+	<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 </body>
+<!-- Script -->
+<script src="/jquery/jquery.min.js"></script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/popper.js/umd/popper.min.js"></script>
+<!-- Jquery easing -->
+<script src="lib/jquery.easing/jquery.easing.min.js"></script>
+<!-- AOS -->
+<script src="/lib/aos/aos.js"></script>
+<th:block th:replace="${script_resources} ?: ~{}">
+</th:block>
 </html>
