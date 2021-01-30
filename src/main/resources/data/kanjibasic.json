@@ -715,8 +715,8 @@
     },
     {
         "id": 103,
-        "name": "疋",
-        "content": "Thất ( 匹) => đơn vị đo chiều dài, tấm (vải)",
+        "name": "初",
+        "content": "Sơ: Cái chân. Hình bắp chân <br> Cách viết khác: 疋 <br> 疋 thất ( 匹) => đơn vị đo chiều dài, tấm (vải)",
         "stroke": 5,
         "note": ""
     },
@@ -1129,7 +1129,7 @@
     {
         "id": 162,
         "name": "辵",
-        "content": "Sước (辶 ) => chợt bước đi chợt dừng lại",
+        "content": "Sước (辶 ) => chợt bước đi chợt dừng lại hay chợt đi chợt đứng",
         "stroke": 7,
         "note": ""
     },
@@ -1310,7 +1310,7 @@
     },
     {
         "id": 188,
-        "name": "骫",
+        "name": "骨",
         "content": "Cốt => xương",
         "stroke": 10,
         "note": ""
@@ -1465,13 +1465,13 @@
     {
         "id": 210,
         "name": "齊",
-        "content": "Tề (斉, 齐 ) => ngang bằng, cùng nhau",
+        "content": "Tề (斉, 齐 ) => ngang bằng, cùng nhau, Lúa trổ đều bông, Chỉnh tề.",
         "stroke": 14,
         "note": ""
     },
     {
         "id": 211,
-        "name": "齒",
+        "name": "歯",
         "content": "Xỉ (齿, 歯) => răng",
         "stroke": 15,
         "note": ""
