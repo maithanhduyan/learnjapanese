@@ -40,12 +40,12 @@ public class DataLoaderService {
 
 	/**
 	 * HIRAGANA JSON FILE PATH
-	 * */
-	static final String HiraganaJsonPath = "data/hiragana.json";
+	 */
+	static final String HiraganaJsonPath = "/data/hiragana.json";
 	/**
 	 * KANJIBASIC JSON FILE PATH
-	 * */
-	static final String KanjiBasicJsonPath = "data/kanjibasic.json";
+	 */
+	static final String KanjiBasicJsonPath = "/data/kanjibasic.json";
 
 	DataLoaderService() {
 		gson = new Gson();
@@ -63,8 +63,9 @@ public class DataLoaderService {
 			resource = new ClassPathResource(HiraganaJsonPath).getFile();
 			text = new String(Files.readAllBytes(resource.toPath()));
 			LOG.info("File Path: " + resource.toPath());
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (IOException ex) {
+			// e.printStackTrace();
+			LOG.error(ex.getMessage());
 		}
 		return text;
 	}
@@ -83,7 +84,8 @@ public class DataLoaderService {
 			}
 			LOG.info("List Hiragana: " + hiraganaArray.size());
 		} catch (Exception ex) {
-			ex.printStackTrace();
+			// ex.printStackTrace();
+			LOG.error(ex.getMessage());
 		}
 		return hiraganaArray;
 	}
@@ -102,8 +104,9 @@ public class DataLoaderService {
 			resource = new ClassPathResource(KanjiBasicJsonPath).getFile();
 			text = new String(Files.readAllBytes(resource.toPath()));
 			LOG.info("File Path: " + resource.toPath());
-		} catch (IOException e) {
-			e.printStackTrace();
+		} catch (IOException ex) {
+			// e.printStackTrace();
+			LOG.error(ex.getMessage());
 		}
 		return text;
 	}
@@ -122,7 +125,8 @@ public class DataLoaderService {
 			}
 			LOG.info("List Hiragana: " + kanjiBasicList.size());
 		} catch (Exception ex) {
-			ex.printStackTrace();
+			// ex.printStackTrace();
+			LOG.error(ex.getMessage());
 		}
 		return kanjiBasicList;
 	}
