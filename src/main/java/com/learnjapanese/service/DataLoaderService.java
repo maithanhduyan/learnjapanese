@@ -41,11 +41,11 @@ public class DataLoaderService {
 	/**
 	 * HIRAGANA JSON FILE PATH
 	 */
-	static final String HiraganaJsonPath = "/data/hiragana.json";
+	static final String HiraganaJsonPath = "/static/data/hiragana.json";
 	/**
 	 * KANJIBASIC JSON FILE PATH
 	 */
-	static final String KanjiBasicJsonPath = "/data/kanjibasic.json";
+	static final String KanjiBasicJsonPath = "/static/data/kanjibasic.json";
 
 	DataLoaderService() {
 		gson = new Gson();
