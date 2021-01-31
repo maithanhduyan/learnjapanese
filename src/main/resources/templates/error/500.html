@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{layouts/main-layout :: main-fragment(  
+                                                ~{::title},
+                                                ~{:: #style-resources},
+                                                ~{:: #script-resources},
+                                                ~{:: #header},
+                                                ~{:: #nav},
+                                                ~{:: #main-content},  
+                                                ~{:: #footer}
+                                               )}">
+
+<head>
+<meta charset="UTF-8" />
+<title>Home Page</title>
+<th:block id="style-resources">
+	<link rel="stylesheet" type="text/css" href="" />
+</th:block>
+</head>
+
+<body>
+
+	<div id="nav" th:replace="~{/fragments/navbar :: nav-default}">Navbar
+	</div>
+
+	<div class="container" id="main-content">
+		<br>
+		<p class="text-center">
+			<a href="/home">Internal Server Error!</a>
+		</p>
+	</div>
+
+	<div id="footer" th:replace="~{/fragments/footer :: copyright}">Footer</div>
+
+</body>
+<th:block id="script-resources">
+	<script type="text/javascript" th:src="@{/js/main.js}"></script>
+</th:block>
+</html>

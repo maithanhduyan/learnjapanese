@@ -2,6 +2,7 @@
 Learn Japanese
 
 ### Project Structure
+~~~~
 learnjapanese 
 	├──doc
 	├──src
@@ -42,4 +43,4 @@ learnjapanese
 	├──mvnw.cmd
 	├──pom.xml
 	└──README.md
-	
+~~~~
