@@ -1,37 +1,48 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org"
-	th:replace="~{layouts/main-layout :: main-fragment(  
-                                                ~{::title},
-                                                ~{:: #style-resources},
-                                                ~{:: #script-resources},
-                                                ~{:: #header},
-                                                ~{:: #nav},
-                                                ~{:: #main-content},  
-                                                ~{:: #footer}
-                                               )}">
-
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8" />
 <title>Home Page</title>
-	<th:block id="style-resources">
-		<link rel="stylesheet" type="text/css" href="" />
-	</th:block>
+<th:block id="style-resources">
+	<link rel="stylesheet" type="text/css" href="" />
+</th:block>
 </head>
 
 <body>
 
-	<div id="nav"
-		th:replace="~{/fragments/navbar :: nav-default}">Navbar
-	</div>
+	<!-- Default Navigator -->
+	<nav th:fragment="nav-default" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a class="navbar-brand" href="/home">Tiếng Nhật Vui</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="/hiragana">Bảng Chữ Cái</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N5</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N4</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N3</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N2</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">N1</a></li>
+			</ul>
+		</div>
+	</nav>
 
 	<div class="container" id="main-content">
-		<p><a href="/214-bo-kanji-co-ban">214  Bộ Thủ Kanji Cơ Bản</a></p>
+		<p>
+			<a href="/214-bo-kanji-co-ban">214 Bộ Thủ Kanji Cơ Bản</a>
+		</p>
 	</div>
 
-	<div id="footer" th:replace="~{/fragments/footer :: copyright}">Footer</div>
+	<div th:fragment="copyright"  class="jumbotron text-center footer">&copy; Tiếng Nhật Vui</div>
 
 </body>
-<th:block id="script-resources">
-	<script type="text/javascript" th:src="@{/js/main.js}" ></script>
-</th:block>
+	<!-- Script -->
+	<script src="/lib/jquery/jquery.min.js"></script>
+	<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/lib/popper.js/umd/popper.min.js"></script>
+	<!-- Jquery easing -->
+	<script src="lib/jquery.easing/jquery.easing.min.js"></script>
+	<!-- AOS -->
+	<script src="/lib/aos/aos.js"></script>
 </html>
