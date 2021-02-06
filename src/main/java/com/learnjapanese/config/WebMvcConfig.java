@@ -9,6 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
 
+	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// Access Bootstrap static resource:
