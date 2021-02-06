@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8" />
-<title>Home Page</title>
-<th:block id="style-resources">
-	<link rel="stylesheet" type="text/css" href="" />
-</th:block>
+	<meta charset="UTF-8" />
+	<title>Home Page</title>
+	<link rel="icon" href="/img/favicon.ico" type="image/png" sizes="16x16 32x32">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  	<!-- AOS -->
+	<link rel="stylesheet" href="/lib/aos/aos.css">
+	<!-- iconfont CSS -->
+	<link rel="stylesheet" href="/lib/icofont/icofont.min.css">
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" href="/static/css/style.css"/>
 </head>
 
 <body>
@@ -40,7 +45,7 @@
 	<!-- Script -->
 	<script src="/lib/jquery/jquery.min.js"></script>
 	<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/lib/popper.js/umd/popper.min.js"></script>
+	<script src="/lib/popper/umd/popper.min.js"></script>
 	<!-- Jquery easing -->
 	<script src="lib/jquery.easing/jquery.easing.min.js"></script>
 	<!-- AOS -->
