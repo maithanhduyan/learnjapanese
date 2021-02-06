@@ -9,16 +9,16 @@ learnjapanese
 	│	├─main
 	│	│	├─java
 	│	│	│   └─com
-	│	│	│		└─learnjapanese 
-	│	│	│			├─api
-	│	│	│			├─config
-	│	│	│			├─controller
-	│	│	│			├─dialect
-	│	│	│			├─entity
-	│	│	│			├─model
-	│	│	│			├─repository
-	│	│	│			├─services
-	│	│	│			└─LearnjapaneseApplication.java
+	│	│	│	└─learnjapanese 
+	│	│	│		├─api
+	│	│	│		├─config
+	│	│	│		├─controller
+	│	│	│		├─dialect
+	│	│	│		├─entity
+	│	│	│		├─model
+	│	│	│		├─repository
+	│	│	│		├─services
+	│	│	│		└─LearnjapaneseApplication.java
 	│	│	├─resources
 	│	│	│	├─static
 	│	│	│	│	├─css
