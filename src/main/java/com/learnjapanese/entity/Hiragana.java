@@ -1,10 +1,7 @@
 package com.learnjapanese.entity;
 
-import javax.persistence.Id;
-
 public class Hiragana {
 	
-	@Id
 	long id;
 	String name;
 	String romaji;

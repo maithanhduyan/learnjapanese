@@ -1,109 +1,101 @@
 package com.learnjapanese.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
 public class KanjiBasic {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    long id;
-    String name;
-    String content;
-    int stroke;
-    String note;
 
-    public KanjiBasic() {
+	long id;
+	String name;
+	String content;
+	int stroke;
+	String note;
 
-    }
- 
-    /**
-     * @param id
-     * @param name
-     * @param content
-     * @param stroke
-     * @param note
-     */
-    public KanjiBasic(int id, String name, String content, int stroke, String note) {
-	super();
-	this.id = id;
-	this.name = name;
-	this.content = content;
-	this.stroke = stroke;
-	this.note = note;
-    }
+	public KanjiBasic() {
 
-    /**
-     * @return the id
-     */
-    public long getId() {
-	return id;
-    }
+	}
 
-    /**
-     * @param id the id to set
-     */
-    public void setId(int id) {
-	this.id = id;
-    }
+	/**
+	 * @param id
+	 * @param name
+	 * @param content
+	 * @param stroke
+	 * @param note
+	 */
+	public KanjiBasic(int id, String name, String content, int stroke, String note) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.content = content;
+		this.stroke = stroke;
+		this.note = note;
+	}
 
-    /**
-     * @return the name
-     */
-    public String getName() {
-	return name;
-    }
+	/**
+	 * @return the id
+	 */
+	public long getId() {
+		return id;
+	}
 
-    /**
-     * @param name the name to set
-     */
-    public void setName(String name) {
-	this.name = name;
-    }
+	/**
+	 * @param id the id to set
+	 */
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    /**
-     * @return the content
-     */
-    public String getContent() {
-	return content;
-    }
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
 
-    /**
-     * @param content the content to set
-     */
-    public void setContent(String content) {
-	this.content = content;
-    }
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    /**
-     * @return the stroke
-     */
-    public int getStroke() {
-	return stroke;
-    }
+	/**
+	 * @return the content
+	 */
+	public String getContent() {
+		return content;
+	}
 
-    /**
-     * @param stroke the stroke to set
-     */
-    public void setStroke(int stroke) {
-	this.stroke = stroke;
-    }
+	/**
+	 * @param content the content to set
+	 */
+	public void setContent(String content) {
+		this.content = content;
+	}
 
-    /**
-     * @return the note
-     */
-    public String getNote() {
-	return note;
-    }
+	/**
+	 * @return the stroke
+	 */
+	public int getStroke() {
+		return stroke;
+	}
 
-    /**
-     * @param note the note to set
-     */
-    public void setNote(String note) {
-	this.note = note;
-    }
+	/**
+	 * @param stroke the stroke to set
+	 */
+	public void setStroke(int stroke) {
+		this.stroke = stroke;
+	}
+
+	/**
+	 * @return the note
+	 */
+	public String getNote() {
+		return note;
+	}
+
+	/**
+	 * @param note the note to set
+	 */
+	public void setNote(String note) {
+		this.note = note;
+	}
 
 }
