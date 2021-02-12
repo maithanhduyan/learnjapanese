@@ -123,7 +123,7 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 		kanjilist.add(new KanjiBasic(100, "生", "Sinh => sinh đẻ, sinh sống", 5, ""));
 		kanjilist.add(new KanjiBasic(101, "用", "Dụng => dùng", 5, ""));
 		kanjilist.add(new KanjiBasic(102, "田", "Điền => ruộng", 5, ""));
-		kanjilist.add(new KanjiBasic(103, "疋", "Thất ( 匹) => đơn vị đo chiều dài, tấm (vải)", 5, ""));
+		kanjilist.add(new KanjiBasic(103, "疋", "Sơ, Nhã, Thất ( 匹) => đơn vị đo chiều dài, tấm (vải)", 5, ""));
 		kanjilist.add(new KanjiBasic(104, "疒", "Nạch => bệnh tật", 5, ""));
 		kanjilist.add(new KanjiBasic(105, "癶", "Bát => gạt ngược lại, trở lại", 5, ""));
 		kanjilist.add(new KanjiBasic(106, "白", "Bạch => màu trắng", 5, ""));
@@ -182,7 +182,7 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 		kanjilist.add(new KanjiBasic(159, "車", "Xa (车) => chiếc xe", 7, ""));
 		kanjilist.add(new KanjiBasic(160, "辛", "Tân => cay", 7, ""));
 		kanjilist.add(new KanjiBasic(161, "辰", "Thần => nhật, nguyệt, tinh; thìn (12 chi)", 7, ""));
-		kanjilist.add(new KanjiBasic(162, "辵", "Sước (辶 ) => chợt bước đi chợt dừng lại", 7, ""));
+		kanjilist.add(new KanjiBasic(162, "辶", "Sước => chợt bước đi chợt dừng lại", 7, ""));
 		kanjilist.add(new KanjiBasic(163, "邑", "Ấp (阝) => vùng đất, đất phong cho quan", 7, ""));
 		kanjilist.add(new KanjiBasic(164, "酉", "Đậu => một trong 12 địa chi", 7, ""));
 		kanjilist.add(new KanjiBasic(165, "釆", "Biện => phân biệt", 7, ""));
@@ -208,7 +208,7 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 		kanjilist.add(new KanjiBasic(185, "首", "Thủ => đầu", 9, ""));
 		kanjilist.add(new KanjiBasic(186, "香", "Hương => mùi hương, hương thơm", 9, ""));
 		kanjilist.add(new KanjiBasic(187, "馬", "Mã (马) => con ngựa", 10, ""));
-		kanjilist.add(new KanjiBasic(188, "骫", "Cốt => xương", 10, ""));
+		kanjilist.add(new KanjiBasic(188, "骨", "Cốt => xương , 骫", 10, ""));
 		kanjilist.add(new KanjiBasic(189, "高", "Cao => cao", 10, ""));
 		kanjilist.add(new KanjiBasic(190, "髟", "Bưu, tiêu => tóc dài; sam => cỏ phủ mái nhà", 10, ""));
 		kanjilist.add(new KanjiBasic(191, "鬥", "Đấu => chống nhau, chiến đấu", 10, ""));
@@ -230,8 +230,8 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 		kanjilist.add(new KanjiBasic(207, "鼓", "Cổ => cái trống", 13, ""));
 		kanjilist.add(new KanjiBasic(208, "鼠", "Thử => con chuột", 13, ""));
 		kanjilist.add(new KanjiBasic(209, "鼻", "Tỵ => cái mũi", 14, ""));
-		kanjilist.add(new KanjiBasic(210, "齊", "Tề (斉, 齐 ) => ngang bằng, cùng nhau", 14, ""));
-		kanjilist.add(new KanjiBasic(211, "齒", "Xỉ (齿, 歯) => răng", 15, ""));
+		kanjilist.add(new KanjiBasic(210, "斉", "Tề (齊, 齐 ) => ngang bằng, cùng nhau", 14, ""));
+		kanjilist.add(new KanjiBasic(211, "歯", "Xỉ (齿, 齒) => răng", 15, ""));
 		kanjilist.add(new KanjiBasic(212, "龍", "Long (龙 ) => con rồng", 16, ""));
 		kanjilist.add(new KanjiBasic(213, "龜", "Quy (亀, 龟 ) => con rùa", 16, ""));
 		kanjilist.add(new KanjiBasic(214, "龠", "Dược => sáo 3 lỗ", 17, ""));
