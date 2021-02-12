@@ -233,7 +233,7 @@ public class KanjiBasicServiceImpl implements KanjiBasicService {
 		kanjilist.add(new KanjiBasic(210, "斉", "Tề (齊, 齐 ) => ngang bằng, cùng nhau", 14, ""));
 		kanjilist.add(new KanjiBasic(211, "歯", "Xỉ (齿, 齒) => răng", 15, ""));
 		kanjilist.add(new KanjiBasic(212, "龍", "Long (龙 ) => con rồng", 16, ""));
-		kanjilist.add(new KanjiBasic(213, "龜", "Quy (亀, 龟 ) => con rùa", 16, ""));
+		kanjilist.add(new KanjiBasic(213, "亀", "Quy (龜, 龟 ) => con rùa", 16, ""));
 		kanjilist.add(new KanjiBasic(214, "龠", "Dược => sáo 3 lỗ", 17, ""));
 		LOG.info("KanjiBasic List was loaded.");
 	}
